@@ -22,7 +22,7 @@ market_sentiment_agent = LlmAgent(
     tools=[
         McpToolset(
             connection_params=StreamableHTTPConnectionParams(
-                url=f"https://mcp.alphavantage.co/mcp?categories=alpha_intelligence?apikey={ALPHAVANTAGE_API_KEY}"),
+                url=f"https://mcp.alphavantage.co/mcp?categories=alpha_intelligence&apikey={ALPHAVANTAGE_API_KEY}"),
                 tool_filter=["NEWS_SENTIMENT"] )
     ]
 )
