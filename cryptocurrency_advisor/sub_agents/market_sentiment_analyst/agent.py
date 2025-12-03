@@ -1,3 +1,7 @@
+"""
+This is the market sentiment analyst agent that provides insights on the cryptocurrency market.
+"""
+
 import os
 from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnectionParams
 from google.adk.agents.llm_agent import LlmAgent

@@ -1,3 +1,7 @@
+"""
+This is the main agent that coordinates with other agents to provide insights on the cryptocurrency market.
+"""
+
 from cryptocurrency_advisor.sub_agents.market_sentiment_analyst.agent import market_sentiment_agent
 from google.adk.tools.agent_tool import AgentTool
 from google.adk.agents.llm_agent import LlmAgent
