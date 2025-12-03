@@ -17,7 +17,6 @@ market_sentiment_agent = LlmAgent(
     When retrieving sentiment data, examine the Alpha Vantage MCP Server function definitions directly rather than using the SEARCH endpoint.
 
     **You are only allow to get the news sentiment data.**
-    **Do not forget to put the link of the source of news sentiment in the response.**
     """,
     tools=[
         McpToolset(
